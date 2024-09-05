@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638608852266480564
-    m_Hash: 2147670980
+      ticks: 638609500270020581
+    m_Hash: 2467033865
   m_LockFileStatus:
     m_FilePath: C:/[-] Data Seeker/[2] Unity Build/Reflection-TheMansion/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638608852266490532
-    m_Hash: 2252169980
+      ticks: 638609500270109019
+    m_Hash: 274906594
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -430,6 +430,90 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.progrids@3.0.3-preview.6
+  testable: 0
+  isDirectDependency: 1
+  version: 3.0.3-preview.6
+  source: 1
+  resolvedPath: C:\[-] Data Seeker\[2] Unity Build\Reflection-TheMansion\Library\PackageCache\com.unity.progrids@3.0.3-preview.6
+  assetPath: Packages/com.unity.progrids
+  name: com.unity.progrids
+  displayName: ProGrids
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: 'Advanced grid and object snapping for the scene view. ProGrids is
+    a dynamically placed grid, available on all 3 axes and at any position in the
+    scene.
+
+
+    ProGrids snaps objects in world space, ensuring consistent placement
+    of objects in your level.
+
+
+    In addition, ProGrids is completely customizable.
+    Change the colors of your grid, the snap sizing, unit of measurement, and more!'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 3.0.1-preview
+    - 3.0.2-preview
+    - 3.0.3-preview.0
+    - 3.0.3-preview.4
+    - 3.0.3-preview.5
+    - 3.0.3-preview.6
+    compatible:
+    - 3.0.1-preview
+    - 3.0.2-preview
+    - 3.0.3-preview.0
+    - 3.0.3-preview.4
+    - 3.0.3-preview.5
+    - 3.0.3-preview.6
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.2
+  resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  keywords:
+  - grid
+  - snap
+  - manipulation
+  - array
+  - align
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637209307060000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.progrids.git
+    revision: 381f2b0b5dda11525d53e2c608284a3f68d1beff
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3210,6 +3294,69 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
+- packageId: com.unity.settings-manager@2.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.1
+  source: 1
+  resolvedPath: C:\[-] Data Seeker\[2] Unity Build\Reflection-TheMansion\Library\PackageCache\com.unity.settings-manager@2.0.1
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 2.0.1
+    recommended: 2.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637744099390000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    path: 
+  unityLifecycle:
+    version: 2.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 0
@@ -3930,69 +4077,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 3.2.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.settings-manager@2.0.1
-  testable: 0
-  isDirectDependency: 0
-  version: 2.0.1
-  source: 1
-  resolvedPath: C:\[-] Data Seeker\[2] Unity Build\Reflection-TheMansion\Library\PackageCache\com.unity.settings-manager@2.0.1
-  assetPath: Packages/com.unity.settings-manager
-  name: com.unity.settings-manager
-  displayName: Settings Manager
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: A framework for making any serializable field a setting, complete
-    with a pre-built settings interface.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    compatible:
-    - 2.0.1
-    recommended: 2.0.1
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637744099390000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
-    path: 
-  unityLifecycle:
-    version: 2.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
