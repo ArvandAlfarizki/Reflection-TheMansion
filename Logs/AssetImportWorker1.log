@@ -1,23 +1,29 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.40f1 (cbdda657d2f0) revision 13360550'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8069 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 8060 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-G:\Game Studio\Unity Engine\2022.3.40f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.40f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-G:/Game Studio/Unity Project/Reflection-TheMansion
+C:/[-] Data Seeker/[2] Unity Build/Reflection-TheMansion
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 60174
 Successfully changed project path to: G:/Game Studio/Unity Project/Reflection-TheMansion
 G:/Game Studio/Unity Project/Reflection-TheMansion
+=======
+56226
+Successfully changed project path to: C:/[-] Data Seeker/[2] Unity Build/Reflection-TheMansion
+C:/[-] Data Seeker/[2] Unity Build/Reflection-TheMansion
+>>>>>>> d7415f2174f3a6e608e3726591d6fbf8abcdaa46
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +55,7 @@ G:/Game Studio/Unity Project/Reflection-TheMansion
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [13936]  Target information:
 
 Player connection [13936]  * "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 3534348141 [EditorId] 3534348141 [Version] 1048832 [Id] WindowsEditor(7,ikok98) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -57,18 +64,29 @@ Player connection [13936] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [13936] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 Refreshing native plugins compatible for Editor in 40.96 ms, found 3 plugins.
+=======
+Player connection [10132]  Target information:
+
+Player connection [10132]  * "[IP] 192.168.100.126 [Port] 0 [Flags] 2 [Guid] 4162081865 [EditorId] 4162081865 [Version] 1048832 [Id] WindowsEditor(7,mine) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10132] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10132] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 3626.94 ms, found 3 plugins.
+>>>>>>> d7415f2174f3a6e608e3726591d6fbf8abcdaa46
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
-[Subsystems] Discovering subsystems at path G:/Game Studio/Unity Engine/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path G:/Game Studio/Unity Project/Reflection-TheMansion/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/[-] Data Seeker/[2] Unity Build/Reflection-TheMansion/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
     Vendor:   NVIDIA
-    VRAM:     2001 MB
-    Driver:   32.0.15.6094
+    VRAM:     2010 MB
+    Driver:   27.21.14.6133
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'G:/Game Studio/Unity Engine/2022.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'G:/Game Studio/Unity Engine/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'G:/Game Studio/Unity Engine/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
@@ -80,20 +98,38 @@ Register platform support module: G:/Game Studio/Unity Engine/2022.3.40f1/Editor
 Register platform support module: G:/Game Studio/Unity Engine/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.027540 seconds.
 - Loaded All Assemblies, in  1.318 seconds
+=======
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 1.092721 seconds.
+- Loaded All Assemblies, in 18.061 seconds
+>>>>>>> d7415f2174f3a6e608e3726591d6fbf8abcdaa46
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
 Native extension for Android target not found
+<<<<<<< HEAD
 Android Extension - Scanning For ADB Devices 1168 ms
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  2.543 seconds
 Domain Reload Profiling: 3862ms
 	BeginReloadAssembly (289ms)
+=======
+Android Extension - Scanning For ADB Devices 1092 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.316 seconds
+Domain Reload Profiling: 20371ms
+	BeginReloadAssembly (9486ms)
+>>>>>>> d7415f2174f3a6e608e3726591d6fbf8abcdaa46
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (2ms)
 	RebuildCommonClasses (163ms)
 	RebuildNativeTypeToScriptingClass (66ms)
@@ -117,6 +153,31 @@ Domain Reload Profiling: 3862ms
 			BeforeProcessingInitializeOnLoad (8ms)
 			ProcessInitializeOnLoadAttributes (283ms)
 			ProcessInitializeOnLoadMethodAttributes (94ms)
+=======
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (2127ms)
+	RebuildNativeTypeToScriptingClass (101ms)
+	initialDomainReloadingComplete (1374ms)
+	LoadAllAssembliesAndSetupDomain (4967ms)
+		LoadAssemblies (9483ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4961ms)
+			TypeCache.Refresh (4958ms)
+				TypeCache.ScanAssembly (4158ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2316ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2188ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1668ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (372ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+>>>>>>> d7415f2174f3a6e608e3726591d6fbf8abcdaa46
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,15 +187,19 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
+<<<<<<< HEAD
 - Loaded All Assemblies, in  3.182 seconds
+=======
+- Loaded All Assemblies, in 12.651 seconds
+>>>>>>> d7415f2174f3a6e608e3726591d6fbf8abcdaa46
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  3.284 seconds
 Domain Reload Profiling: 6467ms
 	BeginReloadAssembly (851ms)
@@ -176,6 +241,49 @@ Unloading 3861 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 33 unused Assets / (128.6 KB). Loaded Objects now: 4329.
 Memory consumption went from 142.1 MB to 142.0 MB.
 Total: 46.898700 ms (FindLiveObjects: 3.915700 ms CreateObjectMapping: 4.739200 ms MarkObjects: 37.589500 ms  DeleteObjects: 0.648100 ms)
+=======
+- Finished resetting the current domain, in  2.363 seconds
+Domain Reload Profiling: 15010ms
+	BeginReloadAssembly (241ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (12259ms)
+		LoadAssemblies (9171ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3233ms)
+			TypeCache.Refresh (3128ms)
+				TypeCache.ScanAssembly (2938ms)
+			ScanForSourceGeneratedMonoScriptInfo (89ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2364ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1661ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (226ms)
+			ProcessInitializeOnLoadAttributes (1271ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 15.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3861 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (128.4 KB). Loaded Objects now: 4331.
+Memory consumption went from 142.5 MB to 142.3 MB.
+Total: 7.856800 ms (FindLiveObjects: 0.475700 ms CreateObjectMapping: 0.472700 ms MarkObjects: 6.715400 ms  DeleteObjects: 0.191100 ms)
+>>>>>>> d7415f2174f3a6e608e3726591d6fbf8abcdaa46
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -192,6 +300,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 33512.504404 seconds.
   path: Assets/Character/Enemy
   artifactKey: Guid(5850e5627aca5ee43bffab1942ed90a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -275,15 +384,299 @@ Received Import Request.
 Start importing Assets/Model 3D/Weapon/Weapon_Colt.mat using Guid(01dca812520426d459d6e850272b62d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
  -> (artifact id: '4c8b00fee70b1cf1285c0c7440f31017') in 0.190212 seconds
+=======
+  Time since last request: 171742.234547 seconds.
+  path: Assets/Environment/Env_Building/Building_Wall_4x4.fbx
+  artifactKey: Guid(d6d63c1f9d31b9f4599ee4383f4c7de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Wall_4x4.fbx using Guid(d6d63c1f9d31b9f4599ee4383f4c7de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0e20aae52ff47a9eca7c876827d71791') in 0.565004 seconds
+>>>>>>> d7415f2174f3a6e608e3726591d6fbf8abcdaa46
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 56
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 11.740148 seconds.
   path: Assets/Model 3D/Weapon/colt_low_Metallic.png
   artifactKey: Guid(2d348cbc5d72f264ba86e1c730cdf60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Model 3D/Weapon/colt_low_Metallic.png using Guid(2d348cbc5d72f264ba86e1c730cdf60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
  -> (artifact id: '9ed12d3d81d8b1db122b7e7b18d45aec') in 0.037431 seconds
+=======
+  Time since last request: 0.000051 seconds.
+  path: Assets/Environment/Env_Building/Building_Wall_6x3.fbx
+  artifactKey: Guid(c99210d6f99bacd458ab18184f022e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Wall_6x3.fbx using Guid(c99210d6f99bacd458ab18184f022e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e22dea01c81dd0989c32b9021b77d978') in 0.147398 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Environment/Env_Building/Building_Wall_6x4.5.fbx
+  artifactKey: Guid(e7cab33c6c25d144da1d82aec14cd2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Wall_6x4.5.fbx using Guid(e7cab33c6c25d144da1d82aec14cd2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f480b460a694e36d02647865e930d01c') in 0.138113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Environment/Env_Building/Building_Wall_Curve6x2.fbx
+  artifactKey: Guid(426e36e264ac59f4eaaa692903c09a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Wall_Curve6x2.fbx using Guid(426e36e264ac59f4eaaa692903c09a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '15e7ee004e7169595707d2c2bda4f23b') in 0.045216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Environment/Env_Building/Building_Tile_4x4.fbx
+  artifactKey: Guid(737bea6d2faa543468811bec815aab5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Tile_4x4.fbx using Guid(737bea6d2faa543468811bec815aab5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '13575eb5f59e86bc79bd2650aa75c56d') in 0.100199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Environment/Env_Building/Building_Tile_4x3.fbx
+  artifactKey: Guid(8ceb2a2f11ab1744aa02f8021b73ba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Tile_4x3.fbx using Guid(8ceb2a2f11ab1744aa02f8021b73ba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a1fbfb2d8e0ef9d96bfd61420ddb8a7a') in 0.070483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Environment/Env_Building/Building_Roof_4x4.fbx
+  artifactKey: Guid(9c3820b3804b9da4a8ad41e8c8e7bfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Roof_4x4.fbx using Guid(9c3820b3804b9da4a8ad41e8c8e7bfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b7dd473d502eaf3268d3308194046697') in 0.059339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Environment/Env_Building/Building_Tile_4x1.fbx
+  artifactKey: Guid(7f69f1f805c19984180c588ccc98acb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Tile_4x1.fbx using Guid(7f69f1f805c19984180c588ccc98acb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd6893a131eb80c360023ca49ec79fa34') in 0.087055 seconds
+>>>>>>> d7415f2174f3a6e608e3726591d6fbf8abcdaa46
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.002524 seconds.
+  path: Assets/Environment/Env_Building/Building_Wall_6x2.fbx
+  artifactKey: Guid(046029068b85d9847814d57e15f73cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Wall_6x2.fbx using Guid(046029068b85d9847814d57e15f73cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '463bd1a191370198f7c5e1291ddbf85d') in 0.172737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Environment/Env_Building/Building_Wall_6x1.fbx
+  artifactKey: Guid(4e0bbdc2d789586478c639b9eef90ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Wall_6x1.fbx using Guid(4e0bbdc2d789586478c639b9eef90ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5e85ef917f53ede181d519d416e59292') in 0.138028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Environment/Env_Building/Building_Stair 2m.fbx
+  artifactKey: Guid(d9399c4fe9b87f44dba8ce972efb0e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Stair 2m.fbx using Guid(d9399c4fe9b87f44dba8ce972efb0e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd29a656bb6e8752f4c489255386cb446') in 0.256050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.001614 seconds.
+  path: Assets/Environment/Env_Building/Building_Tile_4x2.fbx
+  artifactKey: Guid(0ecd358be678cf94f8b642a4798e88c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Tile_4x2.fbx using Guid(0ecd358be678cf94f8b642a4798e88c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f4b34dda3fa2c72fb817cb04897c0d4a') in 0.064924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.001133 seconds.
+  path: Assets/Environment/Env_Building/Building_Tile_Stair_2x2.fbx
+  artifactKey: Guid(e6659b83e88774b4ebfa3bb029018bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Tile_Stair_2x2.fbx using Guid(e6659b83e88774b4ebfa3bb029018bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '19f130035bfc6e17609ca3812ac9a79c') in 0.056184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Environment/Env_Building/Building_Wall_6x2.5.fbx
+  artifactKey: Guid(c624929f33d094843bf41d0a8a5ecd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Wall_6x2.5.fbx using Guid(c624929f33d094843bf41d0a8a5ecd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5e032464f99b0e56929fb0f2756a198a') in 0.179910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Environment/Env_Building/Building_Wall_Curve6x4.fbx
+  artifactKey: Guid(dcdd29ff64231a0439a8c66ab71197cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Wall_Curve6x4.fbx using Guid(dcdd29ff64231a0439a8c66ab71197cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'adbf0526b9a9b27990f864a87e9aa8d6') in 0.035156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Environment/Env_Building/Building_Wall_6x4.fbx
+  artifactKey: Guid(d989e177cd288df43a9b6a3fac24ab11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Env_Building/Building_Wall_6x4.fbx using Guid(d989e177cd288df43a9b6a3fac24ab11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2857ac6e91a9405b4207d11fcf71ccfa') in 0.158215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
