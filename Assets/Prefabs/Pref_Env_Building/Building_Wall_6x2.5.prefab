@@ -96,6 +96,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Wall_6x2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2765472398228753301, guid: c624929f33d094843bf41d0a8a5ecd6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52790282a13afb847b3c69012b307067, type: 2}
+    - target: {fileID: 4391173428872008802, guid: c624929f33d094843bf41d0a8a5ecd6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52790282a13afb847b3c69012b307067, type: 2}
+    - target: {fileID: 4462762315050382054, guid: c624929f33d094843bf41d0a8a5ecd6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52790282a13afb847b3c69012b307067, type: 2}
+    - target: {fileID: 4476490050711623282, guid: c624929f33d094843bf41d0a8a5ecd6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52790282a13afb847b3c69012b307067, type: 2}
     - target: {fileID: 5277875093253609117, guid: c624929f33d094843bf41d0a8a5ecd6d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

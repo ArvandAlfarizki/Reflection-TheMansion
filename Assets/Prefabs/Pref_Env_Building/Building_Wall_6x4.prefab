@@ -92,11 +92,27 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5495135792254137906, guid: d989e177cd288df43a9b6a3fac24ab11, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52790282a13afb847b3c69012b307067, type: 2}
+    - target: {fileID: -1809672926249312692, guid: d989e177cd288df43a9b6a3fac24ab11, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52790282a13afb847b3c69012b307067, type: 2}
     - target: {fileID: 919132149155446097, guid: d989e177cd288df43a9b6a3fac24ab11, type: 3}
       propertyPath: m_Name
       value: Building_Wall_6x4
       objectReference: {fileID: 0}
     - target: {fileID: 2765472398228753301, guid: d989e177cd288df43a9b6a3fac24ab11, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52790282a13afb847b3c69012b307067, type: 2}
+    - target: {fileID: 4391173428872008802, guid: d989e177cd288df43a9b6a3fac24ab11, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52790282a13afb847b3c69012b307067, type: 2}
+    - target: {fileID: 4462762315050382054, guid: d989e177cd288df43a9b6a3fac24ab11, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 52790282a13afb847b3c69012b307067, type: 2}
